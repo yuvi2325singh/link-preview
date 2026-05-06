@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
 
-  <title>Happy Birthday 🎉</title>
+  <!-- ❌ Invisible Title (prevents fallback text) -->
+  <title>‎</title>
 
-  <!-- ✅ Open Graph (WhatsApp ke liye) -->
-  <meta property="og:title" content=".">
-  <meta property="og:description" content=".">
-  <meta property="og:image" content="https://i.postimg.cc/g2VfWbGp/Pujya-Shri-Premanand-Ji-Maharaj.jpg">
-  <meta property="og:url" content="https://link-preview-pi.vercel.app/">
+  <!-- ✅ Open Graph (WhatsApp Preview) -->
+  <meta property="og:title" content="‎">
+  <meta property="og:description" content="‎">
   <meta property="og:type" content="website">
+
+  <!-- 🔥 IMPORTANT: Replace with your image -->
+  <meta property="og:image" content="https://your-image-link.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
+  <!-- 🔗 Your site URL -->
+  <meta property="og:url" content="https://your-site.vercel.app/">
+
+  <!-- Extra boost -->
   <meta name="twitter:card" content="summary_large_image">
 
+  <!-- Mobile full screen feel -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Hello Shera 👑</h1>
-</body>
 
+  <!-- Fullscreen Invitation Image -->
+  <img src="https://your-image-link.jpg" alt="Invitation">
+
+</body>
 </html>
